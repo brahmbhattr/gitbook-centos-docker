@@ -1,7 +1,7 @@
 FROM arctiqteam/gitbook-base:3.2.3
 MAINTAINER stewartshea <shea.stewart@arctiq.ca>
 
-# Set paths, permissions, and add content test user1
+# Set paths, permissions, and add content test user2
 ENV APP_ROOT=/opt/app-root
 ENV PATH=${APP_ROOT}/bin:${PATH} HOME=${APP_ROOT}
 COPY bin/ ${APP_ROOT}/bin/
